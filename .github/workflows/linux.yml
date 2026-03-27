@@ -30,7 +30,7 @@ jobs:
         with:
           haxe-version: 4.3.7
       # Runs a set of commands using the runners shell
-      - name: funny dependencies
+      - name: funny dependencies ok
         run: |
           haxelib setup ~/haxelib
           haxelib install hxcpp > /dev/null --quiet
