@@ -36,10 +36,6 @@ jobs:
           haxelib install hxcpp
           haxelib install lime
           haxelib install openfl
-          haxelib install flixel 4.11.0
-          haxelib install flixel-tools
-          haxelib install flixel-addons 2.11.0
-          haxelib install flixel-ui 2.6.1
           haxelib install hscript 2.5.0
           haxelib install newgrounds 1.3.0
           haxelib install linc_luajit
