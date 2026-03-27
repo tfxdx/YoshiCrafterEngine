@@ -41,7 +41,7 @@ jobs:
           haxelib install flixel-tools
           haxelib install flixel-addons
           haxelib install flixel-ui
-          haxelib install hscript
+          haxelib install hscript 2.5.0
           haxelib install akifox-asynchttp
           haxelib install flixel-addons
           haxelib install newgrounds
@@ -49,7 +49,7 @@ jobs:
           haxelib install akifox-asynchttp
           haxelib install hxp
           haxelib git faxe https://github.com/uhrobots/faxe
-          haxelib git polymod https://github.com/MasterEric/polymod.git
+          haxelib install polymod 1.5.2
           haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc
           haxelib git flixel-textureatlas-yoshiengine https://github.com/Smokey555/Flixel-TextureAtlas
           haxelib git hscript-yoshiengine https://github.com/CodenameCrew/hscript-improved
