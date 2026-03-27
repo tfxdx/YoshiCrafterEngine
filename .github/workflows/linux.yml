@@ -33,7 +33,7 @@ jobs:
         run: |
           mkdir "%HAXELIB_ROOT%"
           haxelib setup "%HAXELIB_ROOT%"
-          haxelib install lime 7.9.0
+          haxelib install lime
           haxelib install openfl
           haxelib install flixel
           haxelib run lime setup flixel
@@ -51,10 +51,9 @@ jobs:
           haxelib git faxe https://github.com/uhrobots/faxe
           haxelib git polymod https://github.com/MasterEric/polymod.git
           haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc
-          haxelib git flixel-textureatlas-yoshiengine https://github.com/YoshiCrafter29/Flixel-TextureAtlas-YoshiCrafterEngine
-          haxelib git hscript-yoshiengine https://github.com/YoshiCrafter29/hscript-improved
+          haxelib git flixel-textureatlas-yoshiengine https://github.com/Smokey555/Flixel-TextureAtlas
+          haxelib git hscript-yoshiengine https://github.com/CodenameCrew/hscript-improved
           haxelib run lime build linux
-          
       - uses: actions/upload-artifact@v2
         with:
           name: Yoshi Engine (Linux)
