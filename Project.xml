@@ -103,7 +103,7 @@
 
 	<haxelib name="linc_luajit" /> <!-- https://github.com/nebulazorua/linc_luajit --> 
 	
-	<haxelib name="discord_rpc_yce" if="desktop" rename="LincDiscordRPCButtons" />
+	<haxelib name="discord_rpc_yce" rename="LincDiscordRPCButtons" if="desktop"/>
 	<haxedef name="enable_updates"/>
 	<haxelib name="hxp"/>
 	<haxelib name="flixel-textureatlas-yoshiengine" rename="Flixel-TextureAtlas" />
